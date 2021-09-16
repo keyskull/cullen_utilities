@@ -1,13 +1,9 @@
-// @dart=2.9
-
-import 'package:flutter/material.dart';
-
 import 'package:flutter/foundation.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 
 class ColumnBuilder extends StatelessWidget {
   const ColumnBuilder(
-      {Key key, @required this.itemBuilder, @required this.itemCount})
+      {Key? key, required this.itemBuilder, required this.itemCount})
       : super(key: key);
 
   final Widget Function(BuildContext, int) itemBuilder;

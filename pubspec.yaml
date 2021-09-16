@@ -1,7 +1,7 @@
-name: utilities
+name: cullen_utilities
 description: A utilities package.
-version: 0.0.1
-homepage:
+version: 0.1.0
+repository: https://github.com/keyskull/utilities.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
