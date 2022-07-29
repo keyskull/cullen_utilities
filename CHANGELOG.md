@@ -1,3 +1,8 @@
+## 0.1.2
+
+* Added futureBuilderHandler function
+* Unknown Widget
+
 ## 0.1.1 Date: 2021-09-15 18:24
 
 * Updated: stop base on any version of logger.

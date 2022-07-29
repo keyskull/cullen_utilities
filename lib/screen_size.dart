@@ -24,7 +24,7 @@ class ScreenSize {
     _screenSize = MediaQuery.of(context).size;
   }
 
-  static get getScreenSize => _screenSize!;
+  static Size get getScreenSize => _screenSize!;
 
 
   static Size getFlashScreenSize(BuildContext context){

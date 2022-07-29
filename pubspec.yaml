@@ -1,16 +1,17 @@
 name: cullen_utilities
 description: A utilities package.
-version: 0.1.1
+version: 0.1.2
 repository: https://github.com/keyskull/utilities.git
+publish_to: https://artalaxies.jfrog.io/artifactory/api/pub/artalaxies-pub-dev-local
+
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=2.1.0"
+  sdk: ">=2.15.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  logger:
+  logger: ^1.1.0
 
 dev_dependencies:
   flutter_test:
